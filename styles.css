@@ -1,0 +1,48 @@
+/* Dark mode background */
+body {
+  margin: 0;
+  background-color: #121212; /* Dark background */
+  color: #f0f0f0; /* Light text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the video player */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1c; /* Slightly lighter container */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the video element */
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Media Chrome specific customizations */
+media-controller {
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Customizing the live button and indicator */
+media-live-button {
+  color: #ff5252;
+  background-color: transparent;
+  border: none;
+}
+
+media-live-indicator {
+  color: #ff5252;
+  font-weight: bold;
+  display: inline-block;
+}

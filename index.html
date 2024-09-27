@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HLS.js with Media Chrome Player</title>
+
+  <!-- Media-Chrome and Media-Chrome HLS Video Element -->
+  <!-- <script type="module" src="https://cdn.jsdelivr.net/npm/media-chrome@4/+esm"></script> -->
+
+  <!-- custom JS -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/media-chrome@4/+esm"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/hls-video-element@1.2/+esm"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="video-container">
+    <media-controller>
+      <hls-video src="https://stream.mux.com/A3VXy02VoUinw01pwyomEO3bHnG4P32xzV7u1j1FSzjNg.m3u8" slot="media"
+        crossorigin muted></hls-video>
+      <media-loading-indicator slot="centered-chrome" noautohide></media-loading-indicator>
+      <media-control-bar>
+        <media-play-button></media-play-button>
+        <media-seek-backward-button></media-seek-backward-button>
+        <media-seek-forward-button></media-seek-forward-button>
+        <media-mute-button></media-mute-button>
+        <media-volume-range></media-volume-range>
+        <media-time-range></media-time-range>
+        <media-time-display showduration remaining></media-time-display>
+        <media-playback-rate-button></media-playback-rate-button>
+        <media-fullscreen-button></media-fullscreen-button>
+      </media-control-bar>
+    </media-controller>
+  </div>
+
+
+
+</body>
+
+</html>
