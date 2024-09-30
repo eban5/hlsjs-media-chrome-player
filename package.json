@@ -1,16 +1,1 @@
-{
-  "name": "hlsmediachrome",
-  "version": "1.0.0",
-  "description": "experiment with VideoJs + MediaChrome",
-  "main": "/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "@eban5",
-  "license": "ISC",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "@babel/core": "7.2.0"
-  }
-}
+{}
